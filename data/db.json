@@ -1,0 +1,49 @@
+{ "candidates": [
+  {
+      "routeID": 2,
+      "stopAddress": "新竹縣新市路93號",
+      "stopID": 201,
+      "stop_lat": 24.901,
+      "stop_lon": 120.98532,
+      "driverID": 2,
+      "driverName": "Chu",
+      "board_time": "2023-12-21 08:43:51",
+      "rating": 0,
+      "nRating": 0,
+      "price": 190,
+      "carPlate": "LOVE-9888",
+      "cartype": "Sedan",
+      "carbrand": 3,
+      "carColor": 4,
+      "carelectric": false
+    },
+    {
+      "routeID": 3,
+      "stopAddress": "新竹縣新市路93號",
+      "stop_lat": 24.901,
+      "stop_lon": 120.98532,
+      "driverID": 2,
+      "driverName": "Leo",
+      "board_time": "2023-12-21 08:43:51",
+      "rating": 0,
+      "nRating": 0,
+      "price": 290,
+      "carPlate": "LOVE-9888",
+      "cartype": "Sedan",
+      "carbrand": 3,
+      "carColor": 4,
+      "carelectric": false
+    }
+  ],
+  
+  "CarInfo": {
+    "carPlate": "BBC-1221",
+    "seat": 4,
+    "brand": 1,
+    "color": 2,
+    "type": "SUV",
+    "electric": false,
+    "stop_arrival_time": "2023-12-21T12:06:29.000Z",
+    "dest_arrival_time": "2023-12-21T12:24:35.000Z"
+    }
+}

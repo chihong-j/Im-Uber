@@ -5,10 +5,11 @@ import Button from '@mui/material/Button';
 
 export const HomePage = () => {
   const navigate = useNavigate()
-  const {state} = useLocation();
-  const { isDriver, name } = state;
+  // const {state} = useLocation();
+  // const { isDriver, name } = state;
   const toProfile = () => {
-    navigate('/profile', { state: { isDriver: false, name: 'Joey' }})
+    // navigate('/profile', { state: { isDriver: false, name: 'Joey' }})
+    navigate('/profile')
   }
   const logOut = () => {
     navigate('/')
@@ -17,7 +18,7 @@ export const HomePage = () => {
   return (
     <>
       <h1>
-        {name}
+        {/* {name} */}
       </h1>
       <div>
         <Button variant="contained" onClick={toProfile}>Profile</Button>
